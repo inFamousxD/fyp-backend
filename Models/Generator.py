@@ -1,7 +1,8 @@
 import torch.nn as nn
 
+
 class Generator(nn.Module):
-    def __init__(self,latent_dim):
+    def __init__(self, latent_dim):
         super(Generator, self).__init__()
 
         def block(in_feat, out_feat):

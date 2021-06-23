@@ -1,7 +1,8 @@
 import torch.nn as nn
 
+
 class Discriminator(nn.Module):
-    def __init__(self,latent_dim):
+    def __init__(self, latent_dim):
         super(Discriminator, self).__init__()
 
         self.model = nn.Sequential(
